@@ -1,0 +1,159 @@
+body{
+    background-image: url(./shara\ desert.jpg);
+    background-repeat: no-repeat;
+}
+.container1{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 15px;
+    height: 50px;
+    margin: 30px;
+}
+.navbar{
+     position: relative;
+     left: 50px;
+    padding: 20px;
+    word-spacing: 50px;
+    margin-left: 750px;
+}
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 500px;
+   
+}
+#id{
+    color: white;
+     position: relative;
+    bottom: 60px;
+    left: 100px; 
+} 
+.left{
+    color: white;
+    font-size: 70px;
+    margin-left: 100px;
+    margin-top: 150px;
+}
+.button{
+    text-align: center;
+    height: 30px;
+    width: 150px;
+    background-color: white;
+    border-radius: 20px;
+    padding-top: 5px;
+    /* font-size: 20px; */
+    position: absolute;
+    margin-left: 100px;
+    margin-top: -40px;
+}
+.grid{
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: auto auto;
+    column-gap: 50px;
+    row-gap: 20px;
+    
+}
+ .box{
+    border-radius: 10px;
+    width: 250px;
+} 
+.box1{
+    background-image: url(./pic-1.png);
+    background-size: cover;
+    background-position: center;
+}
+.box2{
+    background-image: url(./pic-2.png);
+    background-size: cover;
+    background-position: center;
+}
+.box3{
+    background-image: url(./pic-3.png);
+    background-size: cover;
+    background-position: center;
+}
+.box4{
+    background-image: url(./pic-4.png);
+    background-size: cover;
+    background-position: center;
+}
+.ls{
+    color: white;
+    font-size: 10px;
+}
+.header{
+    color: white;
+}
+.box:hover{
+    transform: translateY(-3px);
+}
+ display: flex;
+         flex-wrap: wrap;
+         justify-content: space-around;
+    }
+    .box{
+         height: 250px;
+         width: 600px;
+}
+body{
+    background-image: url("./shara\ desert.jpg");
+    background-size:cover;
+    background-repeat:repeat;
+    background-position:center ;
+}
+.sahara{
+    width: 500px;
+}
+.container-2{
+   flex-direction: column;
+   align-items:center;
+   row-gap: 20px;
+}
+.container-1{
+   flex-wrap: wrap;
+   gap:0px;
+}
+.navbar{
+   flex-wrap: wrap;
+}
+@media screen and(min-width:280px) and (max-width:500px){
+  .grid{
+    grid-template-columns: auto;
+  } 
+      
+  @media screen  and (min-width: 500px) and (max-width: 1000px){ 
+  
+ .grid{
+justify-content: space-around;
+  }
+  .box{
+height: 250px;
+width: 600px;
+}
+body{
+background-image: url("./shara\ desert.jpg");
+background-size:cover;
+background-repeat: no-repeat;
+background-position:center ;
+}
+.sahara{
+width: 500px;
+}
+.container-2{
+    display: column;
+flex-direction: column;
+align-items:center;
+row-gap: 20px;
+}
+.container-1{
+flex-wrap: wrap;
+gap:0px;
+}
+.navbar{
+flex-wrap: wrap;
+}
+  }
+
+
