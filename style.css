@@ -89,43 +89,17 @@ body{
 .box:hover{
     transform: translateY(-3px);
 }
- display: flex;
-         flex-wrap: wrap;
-         justify-content: space-around;
+@media screen (min-width:280px) and (max-width:500px){
+    .grid{
+          grid-template-column:auto;
     }
-    .box{
-         height: 250px;
-         width: 600px;
+    
 }
-body{
-    background-image: url("./shara\ desert.jpg");
-    background-size:cover;
-    background-repeat:repeat;
-    background-position:center ;
-}
-.sahara{
-    width: 500px;
-}
-.container-2{
-   flex-direction: column;
-   align-items:center;
-   row-gap: 20px;
-}
-.container-1{
-   flex-wrap: wrap;
-   gap:0px;
-}
-.navbar{
-   flex-wrap: wrap;
-}
-@media screen and(min-width:280px) and (max-width:500px){
-  .grid{
-    grid-template-columns: auto;
-  } 
       
-  @media screen  and (min-width: 500px) and (max-width: 1000px){ 
+  @media screen  and (min-width: 300px) and (max-width: 1000px){ 
   
  .grid{
+    grid-template-columns: auto;
 justify-content: space-around;
   }
   .box{
@@ -155,5 +129,6 @@ gap:0px;
 flex-wrap: wrap;
 }
   }
+
 
 
